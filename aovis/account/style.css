@@ -1,0 +1,75 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    max-width: 100px;
+  }
+  table tr:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.02); /* Tăng kích thước nhẹ khi hover */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ */
+    cursor: pointer;
+  }
+  table tr:hover td {
+    color: #333;
+  }
+  table tr:hover {
+    border: 2px solid #ccc;
+  }
+  
+  
+  table th:hover {
+    background-color: #ccc;
+  }
+  
+  
+  .admin-panel-section-content {
+    /* ... các style như trên ... */
+    border-radius: 10px; /* Làm tròn góc */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ */
+  }
+  
+  .admin-panel-section-content:hover {
+    background-color: #e0e0e0; /* Thay đổi màu nền khi hover */
+    transform: scale(1.02); /* Tăng kích thước nhẹ */
+  }
+  .thank-you {
+    font-size: 3rem;
+    font-weight: bold;
+    color: green;
+    background-color: w; /* Màu xanh dương */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 1 
+    }
+  }
+  
